@@ -1,0 +1,19 @@
+# global:
+address: 127.0.0.1:443
+
+servers:
+  test1.com: https://ya.ru
+  test2.com: https://google.com
+
+# TODO
+# TODO custom configuration? 
+# TODO client certificates support here?
+#   - name: ztunnel.com
+#     serve: ./html
+#     default: yes
+
+#   - name: test1.com
+#     proxy: https://ya.ru
+    
+#   - name: test2.com
+#     proxy: https://google.com 
